@@ -174,3 +174,8 @@ C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\WebV
 C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\WebVacunApp.dll
 C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\WebVacunApp.pdb
 C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\WebVacunApp.genruntimeconfig.cache
+C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\Razor\Views\Vacunas\Create.cshtml.g.cs
+C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\Razor\Views\Vacunas\Delete.cshtml.g.cs
+C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\Razor\Views\Vacunas\Details.cshtml.g.cs
+C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\Razor\Views\Vacunas\Edit.cshtml.g.cs
+C:\Users\matia\source\repos\WebVacunApp\WebVacunApp\obj\Debug\netcoreapp3.1\Razor\Views\Vacunas\Index.cshtml.g.cs

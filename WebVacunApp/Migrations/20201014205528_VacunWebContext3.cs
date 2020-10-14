@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebVacunApp.Migrations
 {
-    public partial class VacunWebContext : Migration
+    public partial class VacunWebContext3 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

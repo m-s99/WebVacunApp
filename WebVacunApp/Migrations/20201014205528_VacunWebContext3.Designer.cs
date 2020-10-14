@@ -10,8 +10,8 @@ using WebVacunApp.Models;
 namespace WebVacunApp.Migrations
 {
     [DbContext(typeof(VacunWebContext))]
-    [Migration("20201014203626_VacunWebContext")]
-    partial class VacunWebContext
+    [Migration("20201014205528_VacunWebContext3")]
+    partial class VacunWebContext3
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
