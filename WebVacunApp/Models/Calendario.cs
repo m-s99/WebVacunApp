@@ -13,7 +13,7 @@ namespace WebVacunApp.Models
         [Display(Name ="Calendario")]
         public string Nombre { get; set; }
         [Required]
-        public string SexoPaciente { get; set; }
+        public SexoEnum SexoPaciente { get; set; }
         [Required]
         public bool Prematuro { get; set; }
     }

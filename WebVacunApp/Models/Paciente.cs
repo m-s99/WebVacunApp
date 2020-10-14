@@ -20,7 +20,7 @@ namespace WebVacunApp.Models
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime FechaNacimiento { get; set; }
         [Required]
-        public string SexoPaciente { get; set; }
+        public SexoEnum SexoPaciente { get; set; }
         public bool Prematuro { get; set; }
         [Required]
         public double Peso { get; set; }
