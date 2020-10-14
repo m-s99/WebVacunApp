@@ -8,6 +8,7 @@ namespace WebVacunApp.Models
 {
     public class VacunaColocada
     {
+        public int Id { get; set; }
         public int IdVacuna { get; set; }
         public virtual Vacuna Vacuna { get; set; }
         public  int IdPaciente { get; set; }

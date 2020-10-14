@@ -7,6 +7,7 @@ namespace WebVacunApp.Models
 {
     public class DetalleCalendario
     {
+        public int Id { get; set; }
         public int IdCalendario { get; set; }
         public virtual Calendario Calendario { get; set; }
         public int IdVacuna { get; set; }

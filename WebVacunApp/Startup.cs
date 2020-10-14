@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WebVacunApp.Models;
 
 namespace WebVacunApp
 {
@@ -24,6 +26,10 @@ namespace WebVacunApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=VacunWebContext;User ID=ms99;Password=colon1905";
+            services.AddDbContext<VacunWebContext>(
+                    options => options.UseSqlServer(connectionString)
+                );
 
         }
 
